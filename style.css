@@ -17,6 +17,16 @@ html {
 .color-brand-red {
     color: red;
 }
-.color-about-me {
+
+.color-white {
+    color: #FFFFFF;
+}
+.color-services {
+    background-color: white;
+}
+.color-black {
+    color:black
+}
+.color-background-black {
     background-color: black;
 }
