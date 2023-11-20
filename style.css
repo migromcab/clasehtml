@@ -32,5 +32,9 @@ html {
 }
 
 .topbar-colour {
-    background-color: pink;
+    background-color: #FFD4D0;
+}
+
+.footer {
+    padding: 8px 36px;
 }
