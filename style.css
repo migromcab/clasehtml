@@ -1,5 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0px;
 }
 
 
@@ -82,12 +90,15 @@ html {
     min-height: 450px;
     max-width: 670px;
     max-height: 450px;
+   
 }
 
 
 /*
         SERVICES
 */
+
+
 .services__tittle {
     font-size: 30px;
     text-align: center;
@@ -96,6 +107,9 @@ html {
 .services__paragraph {
     font-size: 15px;
     text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .services__list {
     display: flex;
@@ -148,11 +162,12 @@ html {
   border-radius: 10%;
 }
 
+.services {
+    margin-top: 0px;
+}
 
 
-
-
-
-
-
+.section {
+    margin-bottom: 0px;
+}
 
