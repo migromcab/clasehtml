@@ -5,7 +5,10 @@ html {
 
 
 
-//TOPBAR
+/*
+        TOPBAR
+*/
+
 
 .Topbar__logo {
     min-width: 135px;
@@ -38,14 +41,14 @@ html {
 }
 
 
-//HEADER
+/*
+        HEADER
+*/
 
 .header {
-    background-color: #FFD4D0;
     display: flex;
     padding: 40px 124px;
     margin: auto;
-   
 }
 
 .header-h2 {
@@ -74,16 +77,40 @@ html {
     border: 2px solid black;
 }
 
+.header__image {
+    min-width: 670px;
+    min-height: 450px;
+    max-width: 670px;
+    max-height: 450px;
+}
+
+
+/*
+        SERVICES
+*/
+.services__tittle {
+    font-size: 30px;
+    text-align: center;
+}
+
+.services__paragraph {
+    font-size: 15px;
+    text-align: center;
+}
+.services__list {
+    display: flex;
+    justify-content: center;
+}
 
 
 
+/*
 
-
-//OTHERS
-
+        OTHERS
+*/
 
 .background-pink {
-    background-color: #FFD4D0;
+    background-color: #FFD3D0;
 }
 
 .color-brand-red {
@@ -123,13 +150,6 @@ html {
 
 
 
-.image {
-    float: right;
-    min-width: 687px;
-    min-height: 487px;
-    max-width: 687px;
-    max-height: 487px;
-}
 
 
 
