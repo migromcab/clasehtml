@@ -3,6 +3,10 @@ html {
 }
 .header {
     background-color: #FFD4D0;
+    display: flex;
+    padding: 40px 124px;
+    margin: auto;
+   
 }
 
 .header-h2 {
@@ -12,6 +16,23 @@ html {
 .header-h1 {
     font-size: 20px;
     font-weight: bold;
+}
+
+.header__bttn {
+    color: #FFFFFF;
+  background-color: black;
+  padding: 8px 16px;
+  font-weight: bold;
+  padding: 5px 30px;
+}
+
+.header__bttn--white {
+    color: black;
+    background-color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border: 2px solid black;
 }
 
 .color-brand-red {
@@ -35,7 +56,58 @@ html {
     background-color: #FFD4D0;
 }
 
+.bttn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;   
 
+}
 
+.cta{
+  color: #FFFFFF;
+  background-color: black;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.Topbar__nav{
+    min-width: 127px;
+    max-height: 48px;
+    line-height: 48px;
+    
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 8px 30px;
+    
+}
+
+.Topbar__nav a {
+    color: black;
+    padding: 8px 15px;
+
+}
+
+.image {
+    float: right;
+    min-width: 687px;
+    min-height: 487px;
+    max-width: 687px;
+    max-height: 487px;
+}
+
+.Topbar__logo {
+    min-width: 135px;
+    max-width: 135px;
+}
+
+.Topbar {
+    display: flex;
+    padding: 40px 124px;
+    align-items: center;
+}
 
 
