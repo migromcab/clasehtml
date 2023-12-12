@@ -21,6 +21,7 @@ body {
 .Topbar__logo {
     min-width: 135px;
     max-width: 135px;
+    font-size: 30px;
 }
 
 .Topbar {
