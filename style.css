@@ -1,5 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0px;
 }
 
 
@@ -13,6 +21,7 @@ html {
 .Topbar__logo {
     min-width: 135px;
     max-width: 135px;
+    font-size: 30px;
 }
 
 .Topbar {
@@ -82,12 +91,15 @@ html {
     min-height: 450px;
     max-width: 670px;
     max-height: 450px;
+   
 }
 
 
 /*
         SERVICES
 */
+
+
 .services__tittle {
     font-size: 30px;
     text-align: center;
@@ -96,12 +108,43 @@ html {
 .services__paragraph {
     font-size: 15px;
     text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .services__list {
     display: flex;
     justify-content: center;
 }
 
+
+/*
+        About Me
+*/
+
+
+.aboutme {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.aboutme_paragraph {
+    font-size: 15px;
+    text-align: center;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutme_list {
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
 
 
 /*
@@ -117,12 +160,14 @@ html {
     color: red;
 }
 
+.color-pink {
+    color: #FFD3D0;
+}
+
 .color_white {
     color: #FFFFFF;
 }
-.color_services {
-    background-color: white;
-}
+
 .color_black {
     color:black
 }
@@ -138,3 +183,36 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+<<<<<<< HEAD
+=======
+
+.cta{
+  color: #FFFFFF;
+  background-color: black;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.services {
+    margin-top: 0px;
+}
+
+
+.sectionStyle {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+.color-bg-mix{    
+        background: rgb(239,210,208);    
+        background: linear-gradient(180deg, rgba(239,210,208,1) 34%, rgba(255,255,255,1) 34%); 
+    }
+
+
+
+.text_size_list {
+    font-size: 15px;
+}
+>>>>>>> d051fee95c9aac812b3862a2c3ad3f395a2d9c9d
