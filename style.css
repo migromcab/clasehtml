@@ -22,6 +22,7 @@ body {
     min-width: 135px;
     max-width: 135px;
     font-size: 30px;
+    font-weight:bold;
 }
 
 .Topbar {
@@ -200,7 +201,7 @@ body {
 
 
 .sectionStyle {
-    margin: 0;
+    margin: auto;
     padding: 0;
     border: 0px;
 }
@@ -215,4 +216,3 @@ body {
 .text_size_list {
     font-size: 15px;
 }
->>>>>>> d051fee95c9aac812b3862a2c3ad3f395a2d9c9d
