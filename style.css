@@ -98,9 +98,13 @@ body {
 
 /*
         SERVICES
+
 */
 
 
+.services{
+    margin-top: auto;
+}
 .services__tittle {
     font-size: 30px;
     text-align: center;
@@ -114,8 +118,11 @@ body {
     margin-right: auto;
 }
 .services__list {
-    display: flex;
+    display:flex;
     justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
 }
 
 
@@ -187,17 +194,16 @@ body {
 <<<<<<< HEAD
 =======
 
-.cta{
-  color: #FFFFFF;
-  background-color: black;
-  padding: 8px 16px;
-  font-weight: bold;
-  border-radius: 10%;
+
+
+.cta {
+    color: #FFFFFF;
+    background-color: black;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 10%;
 }
 
-.services {
-    margin-top: 0px;
-}
 
 
 .sectionStyle {
@@ -215,4 +221,13 @@ body {
 
 .text_size_list {
     font-size: 15px;
+}
+
+.margin__list {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.align__items {
+    align-items: center;
 }
