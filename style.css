@@ -170,7 +170,19 @@ body {
     
 }
 
+/*
+    Core Design Skills
+*/
 
+.progressbar__style {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.progressbar__style--details {
+    flex-direction: column;
+    display: flex;
+}
 
 
 
@@ -241,6 +253,7 @@ body {
 
 .text_size_list {
     font-size: 15px;
+    font-weight: lighter;
 }
 
 .margin__list {
