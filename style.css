@@ -199,6 +199,18 @@ body {
     font-weight: bold;
 }
 
+
+
+/*
+    Footer
+*/
+
+.footer {
+    height: 360px;
+    text-align: center;
+}
+
+
 /*
 
         UTILITIES
@@ -312,6 +324,11 @@ ul {
 
 .a, .a:visited {
     color: black;
+    text-decoration: none;
+}
+
+.a2, .a:visited {
+    color: white;
     text-decoration: none;
 }
 
