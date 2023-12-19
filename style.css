@@ -185,6 +185,19 @@ body {
 }
 
 
+/*
+    Get in touch
+*/
+
+.getInTouch__style {
+    display: flex;
+    flex-direction: column;
+}
+
+.getInTouch__Tittle {
+    font-size: 30px;
+    font-weight: bold;
+}
 
 /*
 
@@ -301,3 +314,4 @@ ul {
     color: black;
     text-decoration: none;
 }
+
