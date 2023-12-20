@@ -191,6 +191,9 @@ body {
 
 .getInTouch__style {
     display: flex;
+    padding-top: 124px;
+    padding-bottom: 124px;
+   
 }
 
 .getInTouch__Tittle {
@@ -201,7 +204,7 @@ body {
 .form__style {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 200px ;
 }
 
 
@@ -212,7 +215,7 @@ body {
 */
 
 .footer {
-    height: 360px;
+    height: 320px;
     text-align: center;
 }
 
@@ -338,6 +341,15 @@ ul {
     color: white;
     text-decoration: none;
 }
+.margin__left__right {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+   
+}
 
+.flex {
+    display: flex;
+}
 
 
