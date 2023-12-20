@@ -185,6 +185,37 @@ body {
 }
 
 
+
+.coreDesignSkills__list progress {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    height: 5px;
+    width: 420px;
+    /* Chrome and Brave */
+    -webkit-appearance: none;
+    appearance: none;
+    /* Firefox */
+    border: none;
+    background-color: white;
+}
+
+    /* Chrome and Brave */
+    .coreDesignSkills__list progress::-webkit-progress-bar {
+        background: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+        height: 5px;
+    }
+
+    .coreDesignSkills__list progress::-webkit-progress-value {
+        background: black;
+        height: 5px;
+    }
+
+    /* Firefox */
+    .coreDesignSkills__list progress::-moz-progress-bar {
+        background: black;
+        height: 5px;
+    }
+
 /*
     Get in touch
 */
@@ -202,10 +233,12 @@ body {
 }
 
 .form__style {
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 200px ;
 }
+
+
 
 
 
@@ -217,6 +250,7 @@ body {
 .footer {
     height: 320px;
     text-align: center;
+   padding-top: 60px;
 }
 
 
@@ -352,4 +386,6 @@ ul {
     display: flex;
 }
 
-
+.padding__bttElements {
+    padding-bottom: 40px;
+}
