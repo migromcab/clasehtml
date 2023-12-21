@@ -50,6 +50,24 @@ body {
 
 }
 
+.absolute__redcircle__position {
+    top: -50px;
+    right: auto;
+    bottom: auto;
+    left: 480px;
+    z-index: 1;
+}
+
+
+
+.absolute__redcircle{
+    height: 150px;
+    width: 150px;
+    background-color: #FC3314;
+    border-radius: 50%;
+    position: absolute;
+
+}
 
 /*
         HEADER
@@ -159,6 +177,15 @@ body {
 }
 
 
+
+.aboutme_circle {
+    height: 234px;
+    width: 234px;
+    inset: auto auto -200px calc(50% - 234px / 2);
+
+}
+
+
 /*
     My Portfolio
 */
@@ -236,6 +263,12 @@ body {
     display: block;
     flex-direction: column;
     width: 200px ;
+}
+
+.getInTouchCircle {
+    height: 221px;
+    width: 221px;
+    inset: 140px auto auto -134px;
 }
 
 
@@ -387,4 +420,20 @@ ul {
 
 .padding__bttElements {
     padding-bottom: 40px;
+}
+
+.overflow__hidden {
+    overflow: hidden;
+}
+
+
+.redcircle {
+    background-color: #FC3314;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.positionRelative {
+    position: relative;
 }
